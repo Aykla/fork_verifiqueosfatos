@@ -57,6 +57,20 @@ class ValidatePostsTests(unittest.TestCase):
 
                 self.assertTrue(any("[0].e:" in error for error in errors))
 
+    def test_accepts_optional_time_and_topic(self) -> None:
+        post = {"id": 1, "n": 1, "c": 1, "h": "21:34", "a": "Economia", "t": "Claim", "v": "Check"}
+
+        self.assertEqual(self.validate_value([post]), [])
+
+    def test_rejects_non_string_time_or_topic(self) -> None:
+        for field in ("h", "a"):
+            with self.subTest(field=field):
+                post = {"id": 1, "n": 1, "c": 1, "t": "Claim", "v": "Check"}
+                post[field] = 2134
+                errors = self.validate_value([post])
+
+                self.assertTrue(any(f"[0].{field}:" in error for error in errors))
+
     def test_accepts_empty_feed_and_unrecognized_extra_fields(self) -> None:
         post = {"id": 1, "n": 1, "c": 2, "t": "Claim", "v": "Check", "future": True}
 

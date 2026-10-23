@@ -70,6 +70,8 @@ Este arquivo deve servir um Array de objetos com a seguinte estrutura:
     "id": 1,
     "n": 1,
     "c": 1,
+    "h": "21:34",
+    "a": "Saúde",
     "t": "Aqui estará a declaração feita pelo candidato descrita o mais fielmente possível",
     "v": "Aqui estará a verificação feita, com fontes e referências.",
     "s": ["https://www.ibge.gov.br/", "https://www.bcb.gov.br/"]
@@ -83,6 +85,8 @@ Onde:
 - `"id"` é um número inteiro positivo e único que identifica o post. É usado no link de compartilhar (`/#f1`), então nunca mude nem reaproveite o id de um post já publicado. Para um post novo, use o maior id + 1
 - `"n"` é o Nome do candidato. 1 para Lula, 2 para Flávio.
 - `"c"` é o check status, 1 para Verdadeiro, 2 para Falso e 3 para Parcial
+- `"h"` (opcional) é o horário em que a fala aconteceu no debate, no formato HH:MM (ex: "21:34"). Aparece no topo do card
+- `"a"` (opcional) é o tema/assunto da fala, ex: "Saúde", "Economia", "Segurança". Aparece ao lado do horário, no topo do card
 - `"t"` é o `text`, basicamente a declaração feita pelo candidato
 - `"v"` é a verificação, ou seja: o texto de demonstrando o que foi verificado
 - `"e"` (opcional) é a errata: um texto não vazio explicando o que foi corrigido, editado no mesmo item do posts.json

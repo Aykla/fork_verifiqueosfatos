@@ -169,10 +169,19 @@
       );
     }
 
+    // Optional "h" (time of the statement) and "a" (topic), shown on top of the card
+    function createMetaHTML(item) {
+      const parts = [];
+      if (item.h) parts.push(`<time>${escapeHTML(item.h)}</time>`);
+      if (item.a) parts.push(`<span>${escapeHTML(item.a)}</span>`);
+      return parts.length ? `<div class="meta">${parts.join(' ')}</div>` : '';
+    }
+
     function createCard(item) {
       const el = document.createElement('article');
       el.className = 'card';
       el.innerHTML = `
+        ${createMetaHTML(item)}
         <header>
           <img src="/${labels.i[item.n]}" alt="" width="56" height="56" decoding="async" loading="lazy">
           <h2>${labels.n[item.n]}</h2>
