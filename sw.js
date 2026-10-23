@@ -1,7 +1,6 @@
-const CACHE_NAME = 'pwa-static-v16'; // Bump on every asset change so clients update
+const CACHE_NAME = 'pwa-static-v17'; // Bump on every asset change so clients update
 const ASSETS_TO_CACHE = [
   './',
-  './index.html',
   './normalize.css',
   './style.css',
   './manifest.json',
