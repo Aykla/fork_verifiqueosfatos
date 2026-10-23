@@ -33,6 +33,29 @@ class ValidatePostsTests(unittest.TestCase):
 
         self.assertEqual(self.validate_value([post]), [])
 
+    def test_accepts_optional_errata(self) -> None:
+        post = {"n": 1, "c": 1, "t": "Claim", "v": "Check", "e": "Corrected year."}
+
+        self.assertEqual(self.validate_value([post]), [])
+
+    def test_rejects_empty_errata(self) -> None:
+        for errata in ("", " \t\n"):
+            with self.subTest(errata=errata):
+                post = {"n": 1, "c": 1, "t": "Claim", "v": "Check", "e": errata}
+
+                errors = self.validate_value([post])
+
+                self.assertTrue(any("[0].e:" in error for error in errors))
+
+    def test_rejects_non_string_errata(self) -> None:
+        for errata in (None, 42, True, [], {}):
+            with self.subTest(errata=errata):
+                post = {"n": 1, "c": 1, "t": "Claim", "v": "Check", "e": errata}
+
+                errors = self.validate_value([post])
+
+                self.assertTrue(any("[0].e:" in error for error in errors))
+
     def test_accepts_empty_feed_and_unrecognized_extra_fields(self) -> None:
         post = {"n": 1, "c": 2, "t": "Claim", "v": "Check", "future": True}
 

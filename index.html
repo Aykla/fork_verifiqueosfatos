@@ -149,6 +149,10 @@
     let unseen = 0;
     let currentPosts = [];
 
+    function createFixHTML(fix) {
+      return typeof fix === 'string' && fix.trim() ? `<span class="label">Correção:</span><p class="fix">${escapeHTML(fix)}</p>` : '';
+    }
+
     function createSourcesHTML(sources) {
       const links = (Array.isArray(sources) ? sources : [])
         .map(u => { try { return new URL(u); } catch {} })
@@ -181,6 +185,7 @@
         </blockquote>
         <span class="label">Verificação:</span>
         <p>${escapeHTML(item.v)}</p>
+        ${createFixHTML(item.e)}
         ${createSourcesHTML(item.s)}`;
       el.addEventListener('animationend', () => el.classList.remove('new'), { once: true });
       return el;
