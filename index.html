@@ -248,8 +248,8 @@
             added++;
           }
         }
-        // The index in posts.json is the share link's id, and it shifts when a post is removed
-        el.id = `f${i}`;
+        // Stable id for share links; the index shifts when a post is removed, so it's only a fallback
+        el.id = item.id != null ? `c${item.id}` : `f${i}`;
         next.set(key, el);
         list.push(el);
       }

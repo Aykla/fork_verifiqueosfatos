@@ -67,6 +67,7 @@ Este arquivo deve servir um Array de objetos com a seguinte estrutura:
 ```json
 [
   {
+    "id": 1,
     "n": 1,
     "c": 1,
     "t": "Aqui estará a declaração feita pelo candidato descrita o mais fielmente possível",
@@ -79,6 +80,7 @@ Este arquivo deve servir um Array de objetos com a seguinte estrutura:
 Onde:
 
 ```
+- `"id"` é um número inteiro positivo e único que identifica o post. É usado no link de compartilhar (`/#f1`), então nunca mude nem reaproveite o id de um post já publicado. Para um post novo, use o maior id + 1
 - `"n"` é o Nome do candidato. 1 para Lula, 2 para Flávio.
 - `"c"` é o check status, 1 para Verdadeiro, 2 para Falso e 3 para Parcial
 - `"t"` é o `text`, basicamente a declaração feita pelo candidato
@@ -108,6 +110,7 @@ Isso significa que todos os clientes estarão vendo NENHUMA declaração. Digamo
 ```
 [
   {
+    "id": 1,
     "n": 1,
     "c": 1,
     "t": "Aqui estará a declaração feita pelo candidato descrita o mais fielmente possível",
@@ -121,12 +124,14 @@ Suba isso no serviço que está distribuindo sua posts.json e pronto, no proximo
 ```
 [
   {
+    "id": 1,
     "n": 1,
     "c": 1,
     "t": "Aqui estará a declaração feita pelo candidato descrita o mais fielmente possível",
     "v": "Aqui estará a verificação feita, com fontes e referências."
   },  
   {
+    "id": 2,
     "n": 2,
     "c": 2,
     "t": "Aqui estará a declaração feita pelo candidato descrita o mais fielmente possível",
