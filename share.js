@@ -59,6 +59,11 @@
   const copyButton = dialog.querySelector('[data-act=copy]');
   let opener, card, dark, photo, blob;
 
+  // Same logo as the page header
+  const logo = new Image();
+  logo.src = '/icon.png';
+  logo.decode().then(() => card && draw(), () => {});
+
   try {
     shareButton.hidden = !navigator.canShare({ files: [new File([''], 'a.png', { type: 'image/png' })] });
   } catch {}
@@ -199,22 +204,7 @@
 
     ctx.fillStyle = t.line;
     ctx.fillRect(X, lineY, R - X, 2);
-    ctx.beginPath();
-    ctx.roundRect(X, rowY, 66, 66, 16);
-    ctx.fillStyle = t.ink;
-    ctx.fill();
-    ctx.save();
-    ctx.translate(X + 16, rowY + 16);
-    ctx.scale(34 / 24, 34 / 24);
-    ctx.beginPath();
-    ctx.arc(11, 11, 7, 0, Math.PI * 2);
-    ctx.moveTo(20, 20);
-    ctx.lineTo(16, 16);
-    ctx.lineWidth = 2.5;
-    ctx.lineCap = 'round';
-    ctx.strokeStyle = t.bg;
-    ctx.stroke();
-    ctx.restore();
+    if (logo.complete && logo.naturalWidth) ctx.drawImage(logo, X, rowY, 66, 66);
     ctx.textBaseline = 'middle';
     font(400, 45, SERIF);
     ctx.fillStyle = t.ink;
