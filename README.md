@@ -83,6 +83,7 @@ Onde:
 - `"c"` é o check status, 1 para Verdadeiro, 2 para Falso e 3 para Parcial
 - `"t"` é o `text`, basicamente a declaração feita pelo candidato
 - `"v"` é a verificação, ou seja: o texto de demonstrando o que foi verificado
+- `"e"` (opcional) é a errata: um texto não vazio explicando o que foi corrigido, editado no mesmo item do posts.json
 - `"s"` (opcional) são as fontes: um array de URLs http(s), exibidas no card como links com o domínio de cada uma, sempre abertos em nova aba
 ```
 
