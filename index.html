@@ -57,6 +57,12 @@
       </button>
     </header>
 
+    <section class="thermo" aria-labelledby="thermo-title" hidden>
+      <h3 id="thermo-title">Fatômetro</h3>
+      <div class="thermo-rows"></div>
+      <div class="thermo-scale" aria-hidden="true"><span>Falso</span><span>Parcial</span><span>Verdadeiro</span></div>
+    </section>
+
     <main class="article-grid loading"></main>
 
     <footer class="foot">
@@ -179,6 +185,28 @@
       return el;
     }
 
+    const MIN_CHECKS = 3;
+
+    function renderThermo(items) {
+      const score = { Verdadeiro: 1, Parcial: 0.5, Falso: 0 };
+      const rows = Object.keys(labels.n).map((n) => {
+        const mine = items.filter((item) => item.n == n);
+        if (mine.length < MIN_CHECKS) return '';
+        const pct = Math.round(mine.reduce((sum, item) => sum + score[labels.c[item.c]], 0) / mine.length * 100);
+        const count = `${mine.length} checagens`;
+        return `
+          <div class="thermo-row" role="img" aria-label="${labels.n[n]}: ${pct}% verdadeiro em ${count}">
+            <img src="/${labels.i[n]}" alt="" width="32" height="32">
+            <span class="thermo-name">${labels.n[n]}<small>${count}</small></span>
+            <div class="thermo-bar"><span style="left: ${pct}%"></span></div>
+            <span class="thermo-pct">${pct}%</span>
+          </div>`;
+      }).join('');
+      const thermo = document.querySelector('.thermo');
+      thermo.querySelector('.thermo-rows').innerHTML = rows;
+      thermo.hidden = !rows;
+    }
+
     function canRender(item) {
       return !!(item && labels.n[item.n] && labels.c[item.c] && item.t != null && item.t !== '');
     }
@@ -234,6 +262,7 @@
       nodes = next;
       lastRaw = raw;
       currentPosts = items;
+      renderThermo(items.filter(canRender));
 
       const shared = location.hash && document.getElementById(location.hash.slice(1));
       if (shared) {
