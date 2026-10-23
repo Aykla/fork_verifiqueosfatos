@@ -73,6 +73,10 @@ def validate(path: Path) -> list[str]:
             if not isinstance(post["e"], str) or not post["e"].strip():
                 errors.append(f"{location}.e: expected a non-empty string")
 
+        for field in ("h", "a"):
+            if field in post and not isinstance(post[field], str):
+                errors.append(f"{location}.{field}: expected a string")
+
         if "s" in post:
             sources = post["s"]
             if not isinstance(sources, list):
