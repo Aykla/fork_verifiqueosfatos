@@ -189,9 +189,10 @@
 
     function renderThermo(items) {
       const score = { Verdadeiro: 1, Parcial: 0.5, Falso: 0 };
-      const rows = Object.keys(labels.n).map((n) => {
-        const mine = items.filter((item) => item.n == n);
-        if (mine.length < MIN_CHECKS) return '';
+      const groups = Object.keys(labels.n).map((n) => [n, items.filter((item) => item.n == n)]);
+      // All or nothing: showing only some candidates would single them out
+      const ready = groups.every(([, mine]) => mine.length >= MIN_CHECKS);
+      const rows = !ready ? '' : groups.map(([n, mine]) => {
         const pct = Math.round(mine.reduce((sum, item) => sum + score[labels.c[item.c]], 0) / mine.length * 100);
         const count = `${mine.length} checagens`;
         return `
