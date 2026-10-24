@@ -18,7 +18,7 @@
     "n": 2,
     "c": 2,
     "t": "O brasileiro perdeu poder de compra nos últimos 4 anos",
-    "v": "Não, o brasileiro não perdeu poder de compra nos últimos quatro anos (2022-2026): o rendimento médio real do trabalho subiu de cerca de R$ 3.100–3.300 em 2022 para cerca de R$ 3.777 em meados de 2026 (PNAD Contínua/IBGE), o salário mínimo avançou de R$ 1.212 para R$ 1.621 com ganhos reais acima da inflação, e o mínimo compra mais cestas básicas hoje do que em 2022 (ex.: 1,8 vs. 1,62 em São Paulo), enquanto a inflação (IPCA) desacelerou após os picos de 2021-2022, embora o poder de compra de alimentos ainda esteja abaixo dos níveis pré-pandemia em algumas medições."
+    "v": "Não, o brasileiro não perdeu poder de compra nos últimos quatro anos (2022-2026): o rendimento médio real do trabalho subiu de cerca de R$ 3.100-3.300 em 2022 para cerca de R$ 3.777 em meados de 2026 (PNAD Contínua/IBGE), o salário mínimo avançou de R$ 1.212 para R$ 1.621 com ganhos reais acima da inflação, e o mínimo compra mais cestas básicas hoje do que em 2022 (ex.: 1,8 vs. 1,62 em São Paulo), enquanto a inflação (IPCA) desacelerou após os picos de 2021-2022, embora o poder de compra de alimentos ainda esteja abaixo dos níveis pré-pandemia em algumas medições."
   },
   {
     "id": 1,
@@ -81,7 +81,7 @@
     "n": 2,
     "c": 3,
     "t": "Eu vou ampliar a zona franca de Manaus",
-    "v": "Durante a votação da Reforma Tributária em 2023, Flávio apresentou emendas para limitar as vantagens constitucionais concedidas à região amazônica — alegando na ocasião o risco de "migração predatória" de empresas do restante do país para Manaus gerando desemprego em outros estados —, além de ter apoiado publicamente as medidas do governo Jair Bolsonaro (como os decretos que cortaram o IPI nacional em até 35%, decisão que desidratava os incentivos da ZFM e que acabou travada pelo STF). Fontes: Amazonas Atual – Contrário à ZFM, Flávio Bolsonaro diz em Manaus que a Zona Franca é 'sagrada' | Revista Fórum – Flávio pediu retirada de benefícios da Zona Franca e agora chama modelo de sagrado | Rios de Notícias - Em Manaus, Flávio promete atrair investimentos e fortalecer ZFM"
+    "v": "Durante a votação da Reforma Tributária em 2023, Flávio apresentou emendas para limitar as vantagens constitucionais concedidas à região amazônica — alegando na ocasião o risco de \"migração predatória\" de empresas do restante do país para Manaus gerando desemprego em outros estados —, além de ter apoiado publicamente as medidas do governo Jair Bolsonaro (como os decretos que cortaram o IPI nacional em até 35%, decisão que desidratava os incentivos da ZFM e que acabou travada pelo STF). Fontes: Amazonas Atual – Contrário à ZFM, Flávio Bolsonaro diz em Manaus que a Zona Franca é 'sagrada' | Revista Fórum – Flávio pediu retirada de benefícios da Zona Franca e agora chama modelo de sagrado | Rios de Notícias - Em Manaus, Flávio promete atrair investimentos e fortalecer ZFM"
   },
   {
     "id": 1,
@@ -111,11 +111,11 @@
     "t": "O Ceará é o estado que mais aprova para o ITA",
     "v": "Sim, o Ceará é um dos maiores destaques e frequentemente lidera ou concentra a maior proporção de aprovados no vestibular do Instituto Tecnológico de Aeronáutica (ITA)."
   },
-   {
+  {
     "id": 1,
     "n": 1,
     "c": 1,
     "t": "Levou super computador para o Rio Grande do Norte",
     "v": "Lula possibilitou a implantação de supercomputador de R$ 1 bilhão no RN para processamento de dados e IA."
-  } 
+  }
 ]
