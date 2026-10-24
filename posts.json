@@ -277,9 +277,9 @@
   },
   {
     "n": 1,
-    "c": 1,
+    "c": 3,
     "t": "O PT anunciou o perdão de 15 bilhões de dívidas para MEIs",
-    "v": "A afirmação é verdadeira: o governo Lula sancionou medida que perdoa cerca de R$ 15 bilhões em dívidas tributárias de Microempreendedores Individuais (MEIs) com a União. A lei atinge cerca de 4 milhões de inadimplentes com débitos antigos e de difícil recuperação, condicionando o benefício à regularidade das contribuições futuras e elevando o teto de faturamento da categoria."
+    "v": "Verdadeira, com ressalvas. A Lei Geral da Micro e Pequena Empresa foi instituída pela Lei Complementar nº 123/2006, sancionada por Lula. O MEI foi criado pela Lei Complementar nº 128/2008, também sancionada durante seu governo. As medidas foram aprovadas com participação do Congresso Nacional; portanto, atribuí-las exclusivamente ao presidente simplifica o processo legislativo."
   },
   {
     "n": 1,
@@ -292,5 +292,11 @@
     "c": 3,
     "t": "O Flávio Bolsonaro é contra acabar com as bets",
     "v": "A afirmação é parcialmente verdadeira (com distinção de modalidades): Flávio Bolsonaro se posicionou contra a proibição total das apostas esportivas (as bets de futebol), alegando respeito à segurança jurídica e a regras vigentes, mas defendeu proibir terminantemente os cassinos online (como o 'jogo do tigrinho'), apontando-os como causadores do endividamento das famílias."
+  },
+  {
+    "n": 1,
+    "c": 2,
+    "t": "O governo Bolsonaro aprovou o jogo do tigrinho",
+    "v": "A afirmação é falsa: o jogo do tigrinho (cassino online) não foi aprovado pelo governo Bolsonaro. As apostas esportivas foram legalizadas em 2018 por Michel Temer, com prazo de regulamentação que expirou sem ação sob Bolsonaro."
   }  
 ]
