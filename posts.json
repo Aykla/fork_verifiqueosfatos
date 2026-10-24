@@ -278,5 +278,19 @@
     "c": 1,
     "t": "O Bolsonaro debochou e imitou pessoas sufocando por causa da COVID",
     "v": "A afirmação é verdadeira: durante transmissões ao vivo oficiais nas redes sociais em março e maio de 2021 — no auge da pandemia de Covid-19 —, Jair Bolsonaro imitou repetidamente pessoas com falta de ar e sufocando ao ironizar as orientações médicas e sanitárias de isolamento recomendadas pelo ex-ministro da Saúde Luiz Henrique Mandetta. Nas ocasiões, ele puxou o ar pela boca com dificuldade e debochou: 'fica em casa e, quando estiver sentindo falta de ar [faz a encenação ofegante], vai para o hospital fazer o quê se não tem remédio?' — episódios que foram amplamente registrados em vídeo, incluídos no relatório final da CPI da Pandemia no Senado e resgatados nacionalmente durante as sabatinas eleitorais de 2022.   Fontes: G1 – Bolsonaro imitou paciente com falta de ar durante transmissões ao vivo em 2021 | Estado de Minas – Bolsonaro imita pessoa com falta de ar durante live nas redes | Senado Federal – Relatório Final da CPI da Pandemia"
-  }  
+  },
+  {
+    "id": 1,
+    "n": 2,
+    "c": 2,
+    "t": "Lula não fez nada para ajudar a dívida das Santas Casas",
+    "v": "A afirmação é falsa: o governo Lula adotou medidas legislativas e financeiras de socorro às Santas Casas e hospitais filantrópicos, como a liberação de cerca de R$ 2 bilhões em auxílios emergenciais pelo Ministério da Saúde em 2023 e a sanção da lei que prorrogou o uso de recursos do FGTS até 2030 para linhas de crédito especiais, liberando mais de R$ 2 bilhões para refinanciar e alongar débitos com prazos estendidos e juros reduzidos; contudo, entidades como a Confederação das Santas Casas (CMB) ressalvam que o socorro é paliativo e não extingue a crise estrutural, mantendo o setor com endividamento bilionário devido à defasagem histórica da tabela de procedimentos do SUS. Fontes: Metrópoles – Lula sanciona lei para uso do FGTS em crédito a Santas Casas | JOTA – Santas Casas e hospitais filantrópicos buscam renegociação de dívida | Ministério da Saúde – Repasses emergenciais a entidades filantrópicas e Santas Casas"
+  },
+  {
+    "id": 1,
+    "n": 2,
+    "c": 2,
+    "t": "Meu pai foi salvo de uma facada graças ao SUS",
+    "v": "A Santa Casa é uma instituição privada, filantrópica e sem fins lucrativos, e não um hospital público estatal."
+  }    
 ]
