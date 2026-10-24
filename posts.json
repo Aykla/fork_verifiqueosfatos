@@ -370,5 +370,11 @@
     "c": 3,
     "t": "Vai aumentar a pena para ladrões de celular para 8 anos",
     "v": "A pena para roubo de celular já é de 8 anos. A pena base são 6 anos + 1/3 de fração mínima"
-  }  
+  },
+  {
+    "n": 2,
+    "c": 3,
+    "t": "O governo Bolsonaro anistiou 99% das dívidas do FIES",
+    "v": "A afirmação é parcial (com distorção de escopo): Bolsonaro sancionou a Lei 14.375/2022, que permitiu descontos de até 99% no saldo devedor, mas não houve anistia geral de 99% das dívidas. O abatimento máximo valeu apenas para inadimplentes há mais de 360 dias inscritos no CadÚnico ou Auxílio Brasil; os demais tiveram descontos menores (de 12% a 77%)."
+  }    
 ]
