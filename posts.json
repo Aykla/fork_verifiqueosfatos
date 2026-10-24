@@ -205,7 +205,7 @@
   {
     "id": 1,
     "n": 2,
-    "c": 1,
+    "c": 2,
     "t": "Quer expandir legislação para cuidar de animais silvestres",
     "v": "Sua atuação legislativa no Congresso Nacional é historicamente marcada por posições vistas por ambientalistas e biólogos como contrárias à proteção da vida silvestre: o senador votou e atuou a favor de projetos da bancada ruralista que flexibilizam o licenciamento ambiental, apoiou medidas que enfraquecem a fiscalização de órgãos como o Ibama e o ICMBio, e assinou propostas polêmicas voltadas à facilitação da caça esportiva e de controle de fauna silvestre (como a caça ao javali e a regulamentação de armas para atiradores/caçadores - CACs), além de ter defendido no passado pautas controversas como a liberação de cassinos em resorts integrados que afetariam áreas costeiras e de preservação marinha."
   },
@@ -264,5 +264,12 @@
     "c": 2,
     "t": "O Lula criou ou aumentou mais de 30 impostos no último mandato",
     "v": "A afirmação é exagerada e enganosa do ponto de vista tributário formal, embora tenha base no avanço da arrecadação: o governo Lula não criou 30 tributos novos — o sistema tributário brasileiro possui cerca de uma dúzia de tributos federais principais previstos na Constituição —, mas implementou mais de 20 medidas arrecadatórias focadas em recompor receitas fiscais. Entre elas destacam-se o fim da isenção de compras internacionais até US$ 50 ('taxa das blusinhas'), a tributação de fundos exclusivos (super-ricos) e offshores, a volta da reoneração de combustíveis (PIS/Cofins), mudanças no Carf, limitação de benefícios do ICMS em subvenções e a taxação de apostas esportivas (bets); críticos somam reonerações, alterações de alíquotas setoriais e portarias para inflar a conta acima de 30 'aumentos', mas analistas da FGV e do Ipea apontam que a maior parte foi corte de desonerações e fechamento de brechas fiscais prévias."
-  }     
+  },
+  {
+    "id": 1,
+    "n": 2,
+    "c": 2,
+    "t": "Há falta de dipirona nas unidades básicas de saúde",
+    "v": "Não há uma falta, há janela de reposição de estoques pontuais como acontece com qualquer serviço além de que a responsabilidade é do governo Municipal. Fora que essa reposição não é de responsabilidade direta do governo federal."
+  }       
 ]
