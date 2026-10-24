@@ -229,5 +229,12 @@
     "c": 3,
     "t": "O CadÚnico (Cadastro Único) é um benefício social",
     "v": "Não, o CadÚnico (Cadastro Único) não é um benefício social em si. Ele funciona como um instrumento de registro e coleta de dados criado pelo Governo Federal para identificar e mapear as famílias de baixa renda que vivem no país. Na prática, o CadÚnico atua como a porta de entrada para diversos programas e políticas públicas. Estar inscrito não significa receber um valor financeiro automaticamente, mas é o requisito fundamental e obrigatório para poder solicitar e ter acesso a esses auxílios."
-  }        
+  },
+  {
+    "id": 1,
+    "n": 1,
+    "c": 1,
+    "t": "O PT herdou taxa de juros de 13% do governo Bolsonaro",
+    "v": "A afirmação é verdadeira: em 1º de janeiro de 2023, quando Luiz Inácio Lula da Silva assumiu o terceiro mandato, a taxa básica de juros (Selic) estava fixada em 13,75% ao ano. Esse patamar havia sido definido pelo Comitê de Política Monetária (Copom) do Banco Central ainda em agosto de 2022, durante a gestão de Jair Bolsonaro, com o objetivo de conter a forte escalada inflacionária decorrente do pós-pandemia e das tensões geopolíticas globais, permanecendo congelado nesse nível até o início do ciclo de cortes em agosto de 2023. Fontes: Banco Central do Brasil – Histórico das Taxas de Juros (Copom) | G1 – Copom mantém taxa Selic em 13,75% ao ano na transição de governo."
+  }          
 ]
