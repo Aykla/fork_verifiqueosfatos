@@ -292,5 +292,12 @@
     "c": 2,
     "t": "Meu pai foi salvo de uma facada graças ao SUS",
     "v": "A Santa Casa é uma instituição privada, filantrópica e sem fins lucrativos, e não um hospital público estatal."
-  }    
+  },
+  {
+    "id": 1,
+    "n": 2,
+    "c": 3,
+    "t": "Tarcísio reduziu as filas do SUS em São Paulo",
+    "v": "A afirmação é parcialmente verdadeira (com resultados mistos): a gestão de Tarcísio de Freitas em São Paulo realizou mutirões e criou a "Tabela SUS Paulista" — que remunera procedimentos acima da tabela federal para hospitais filantrópicos —, atingindo recordes na realização de cirurgias eletivas (mais de 1,2 milhão ao ano) e reduzindo a espera cirúrgica em várias regiões; por outro lado, levantamentos oficiais via LAI obtidos pela imprensa apontam que a fila de exames diagnósticos e consultas especializadas cresceu na rede estadual (superando 2,2 milhões de pessoas à espera, alta de 14,6%), refletindo a alta demanda reprimida do pós-pandemia e a migração de usuários de convênios médicos para o sistema público.   Fontes: G1 – Fila para exames na rede estadual de saúde de SP cresce na gestão Tarcísio | Secretaria de Estado da Saúde de SP – Balanços do Mutirão de Cirurgias e Tabela SUS Paulista"
+  }      
 ]
