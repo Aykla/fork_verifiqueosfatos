@@ -110,5 +110,12 @@
     "c": 1,
     "t": "O Ceará é o estado que mais aprova para o ITA",
     "v": "Sim, o Ceará é um dos maiores destaques e frequentemente lidera ou concentra a maior proporção de aprovados no vestibular do Instituto Tecnológico de Aeronáutica (ITA)."
-  }        
+  },
+   {
+    "id": 1,
+    "n": 1,
+    "c": 1,
+    "t": "Levou super computador para o Rio Grande do Norte",
+    "v": "Lula possibilitou a implantação de supercomputador de R$ 1 bilhão no RN para processamento de dados e IA."
+  } 
 ]
