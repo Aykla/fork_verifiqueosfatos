@@ -181,11 +181,18 @@
     "t": "O primeiro emprego do flavio. bolsonaro foi funcionario fantasma?",
     "v": "O primeiro emprego de Flávio Bolsonaro foi como assistente técnico na liderança do Partido Progressista Brasileiro (PPB) na Câmara dos Deputados, em Brasília, cargo que gerou acusações e indícios de que ele atuou como funcionário fantasma."
   },
-    {
+  {
     "id": 1,
     "n": 2,
     "c": 3,
     "t": " Moradores de rua dobraram durante o governo do Lula",
     "v": "A afirmação é parcialmente verdadeira (com contexto metodológico essencial): os números brutos do Cadastro Único (CadÚnico) de fato quase dobraram ao longo do terceiro mandato de Lula, saltando de 198,7 mil pessoas em dezembro de 2022 para cerca de 392,4 mil em 2026 (uma alta de 97,4%). Contudo, especialistas do Ipea, pesquisadores de assistência social e o Ministério do Desenvolvimento e Assistência Social (MDS) apontam que essa explosão nas estatísticas não significa necessariamente que a população física nas ruas duplicou de forma repentina, mas reflete em grande parte a busca ativa municipal, a superação de subnotificações dos anos anteriores e a inclusão de incentivos diretos de cadastramento, como a priorização dessa população no Bolsa Família e no plano Ruas Visíveis a partir de 2023. O aumento real existe e vem numa curva ascendente contínua há mais de uma década (impulsionada por desemprego, crise habitacional e desestruturação familiar), mas a taxa de quase 100% de alta expressa principalmente a maior visibilidade cadastral desse público nas bases de dados governamentais."
-  }
+  },
+{
+    "id": 1,
+    "n": 2,
+    "c": 2,
+    "t": "São Paulo acabou com a Cracolândia e tratou a saúde dos moradores de rua",
+    "v": "A afirmação é falsa: a Cracolândia em São Paulo não acabou, nem houve uma resolução estrutural no tratamento de saúde dessa população. Dados de monitoramento da Prefeitura de São Paulo, do Laboratório de Estudos sobre Espaço Público e Direito à Cidade (LabCidade/USP) e de relatórios do Ministério Público de São Paulo (MPSP) apontam que as ações policiais e urbanísticas dos últimos anos resultaram na dispersão territorial do fluxo de usuários — que antes se concentrava em pontos como a Praça Princesa Isabel e a Rua Helvétia — em dezenas de pequenos agrupamentos ('minicracolândias') espalhados por bairros centrais como Santa Cecília, Campos Elíseos e Bom Retiro. Embora o poder público estadual e municipal tenha ampliado vagas em comunidades terapêuticas, inaugurado unidades do Hub de Cuidados em Crack e Outras Drogas e reforçado abordagens de saúde mental (CAPS e Consultórios na Rua), especialistas da Fiocruz e da USP destacam que a adesão continuada e a reabilitação em saúde permanecem em níveis criticamente baixos, marcadas pela baixa resolutividade clínica, recaídas frequentes e forte resistência dos usuários a intervenções de perfil compulsório ou asilar. Fontes: LabCidade/USP – Mapeamento da dispersão e dinâmica das cenas de uso no Centro de SP | Ministério Público do Estado de São Paulo – Atuação e relatórios sobre a política de drogas na Cracolândia | Fiocruz – Pesquisas sobre atenção psicossocial e vulnerabilidade nas cenas abertas de drogas"
+  }  
 ]
