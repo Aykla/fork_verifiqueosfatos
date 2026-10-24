@@ -328,5 +328,23 @@
     "c": 1,
     "t": "Encontramos 5600 escolas paralisadas.",
     "v": "Verdadeiro. O levantamento inicial do Pacto Nacional mapeou exatamente 5.642 obras de educação básica financiadas pelo Fundo Nacional de Desenvolvimento da Educação (FNDE) que estavam travadas em 2022. "
-  }   
+  },   
+  {
+    "n": 2,
+    "c": 2,
+    "t": "A nota do PISA é uma das piores por conta do governo Lula",
+    "v": "A afirmação é falsa: o baixo desempenho no Pisa é um problema histórico e estrutural do Brasil desde o início da avaliação em 2000, e não exclusividade de um governo. Os testes avaliam alunos de 15 anos — reflexo de toda a trajetória na educação básica —, com notas estagnadas sob FHC, Lula, Dilma, Temer e Bolsonaro, mantendo o país historicamente no terço inferior do ranking da OCDE."
+  },
+  {
+    "n": 2,
+    "c": 3,
+    "t": "O governo do PT acabou com os JEBs (Jogos Escolares Brasileiros)",
+    "v": "Enganosa. Os Jogos Escolares Brasileiros tradicionais deixaram de ser realizados após 2004, durante o primeiro governo Lula, mas a interrupção se estendeu por diferentes governos e ocorreu em meio a mudanças no formato das competições escolares nacionais. Outras competições ocuparam esse espaço nesse período. Os JEBs foram retomados em 2021, durante o governo Bolsonaro. Assim, dizer que “o PT acabou com os JEBs” simplifica a história e atribui exclusivamente a um partido uma interrupção de 17 anos."
+  },
+  {
+    "n": 2,
+    "c": 2,
+    "t": "Fez uma declaração para Ana Clara como se ela estivesse na platéia",
+    "v": "Ana Clara foi a vítima."
+  }  
 ]
