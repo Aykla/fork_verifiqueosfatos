@@ -322,5 +322,11 @@
     "c": 3,
     "t": "O governo Bolsonaro anistiou 99% das dívidas do FIES",
     "v": "A afirmação é parcial (com distorção de escopo): Bolsonaro sancionou a Lei 14.375/2022, que permitiu descontos de até 99% no saldo devedor, mas não houve anistia geral de 99% das dívidas. O abatimento máximo valeu apenas para inadimplentes há mais de 360 dias inscritos no CadÚnico ou Auxílio Brasil; os demais tiveram descontos menores (de 12% a 77%)."
-  }  
+  },
+  {
+    "n": 1,
+    "c": 1,
+    "t": "Encontramos 5600 escolas paralisadas.",
+    "v": "Verdadeiro. O levantamento inicial do Pacto Nacional mapeou exatamente 5.642 obras de educação básica financiadas pelo Fundo Nacional de Desenvolvimento da Educação (FNDE) que estavam travadas em 2022. "
+  }   
 ]
